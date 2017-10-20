@@ -6,7 +6,7 @@
 		<link type="text/css" rel="stylesheet" href="../../Public/Css/Css/style.css" media="all">
 		<link type="text/css" rel="stylesheet" href="../../Public/Css/Css/plugins.css" media="all">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
-		<title>Index</title>
+		<title>Sistema D</title>
 
 	</head>
 
