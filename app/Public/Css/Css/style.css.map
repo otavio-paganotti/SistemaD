@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,wBAAgC,CAC/B,WAAW,CAAE,mBAAmB,CCDjC,IAAK,CCqEH,QAAQ,CAAE,QAAQ,CAClB,UAAU,CAAE,GAAG,CACf,YAAY,CAAG,IAAa,CAC5B,aAAa,CAAE,IAAa,CAE5B,yBAAmC,CD1ErC,IAAK,CC2ED,KAAK,CAAE,IAAI,CACX,KAAK,CAAE,IAAsC",
+"sources": ["../Scss/_body.scss","../Scss/_header.scss","../Scss/Bootstrap/mixins/_grid.scss"],
+"names": [],
+"file": "style.css"
+}
