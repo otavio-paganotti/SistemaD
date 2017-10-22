@@ -8,12 +8,12 @@
 		<link type="text/css" rel="stylesheet" href="../../Css/Css/op.css" media="all">
 		<link type="text/css" rel="stylesheet" href="../../Css/Css/style.css" media="all">
 		<link type="text/css" rel="stylesheet" href="../../Css/Css/plugins.css" media="all">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet"> 
 		<title>Login</title>
 
 		</head>
 
-		<body style="font-family: Karma sans-serif">
+		<body style="font-family: 'PT Sans Narrow', sans-serif">
 			<!-- Menu do topo -->
 			<div class="op-top">
 			  <div class="op-black op-large op-w100">
