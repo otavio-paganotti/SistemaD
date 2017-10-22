@@ -1,5 +1,5 @@
  <?php
-require_once("ConexaoBD.php");
+require_once("../../config/ConexaoBD.php");
  
 class Usuario{
 	

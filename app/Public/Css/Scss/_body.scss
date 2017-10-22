@@ -76,3 +76,79 @@ select {
 }
 
 /*FIM DO CSS DA PARTE DE ENCOMENDAS */
+
+
+/* css do lobby.php */
+
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 18px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: inherit;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+@media screen and(max-width: 900px){
+  div p.op-bv {
+    visibility: hidden;
+  }
+}
+
+/* sidebar menu */
+
+.op-sb-top {
+  position: relative;top:57px;
+}
+
+.op-sidebar {
+  background-color: #ddd !important;
+}
+.op-bar-item:hover {
+  background-color: #999 !important;
+  text-decoration: none;
+}
+.op-active {
+  background-color: #666 !important;
+}
+
+a.op-bar-item i.fa img {
+  position: relative; 
+  top: -5px;
+}
