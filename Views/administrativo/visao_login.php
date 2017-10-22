@@ -5,9 +5,9 @@
 
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link type="text/css" rel="stylesheet" href="../../Public/Css/Css/op.css" media="all">
-		<link type="text/css" rel="stylesheet" href="../../Public/Css/Css/style.css" media="all">
-		<link type="text/css" rel="stylesheet" href="../../Public/Css/Css/plugins.css" media="all">
+		<link type="text/css" rel="stylesheet" href="../../Css/Css/op.css" media="all">
+		<link type="text/css" rel="stylesheet" href="../../Css/Css/style.css" media="all">
+		<link type="text/css" rel="stylesheet" href="../../Css/Css/plugins.css" media="all">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
 		<title>Login</title>
 
@@ -50,8 +50,8 @@
 					  </div>
 				</form>
 				
-			<script type="text/javascript" src="../../Public/Js/jquery-3.2.1.min.js"></script>
-			<script type="text/javascript" src="../../Public/Js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="../../Js/jquery-3.2.1.min.js"></script>
+			<script type="text/javascript" src="../../Js/bootstrap.min.js"></script>
 			<?php
 			//var_dump($_POST);
 

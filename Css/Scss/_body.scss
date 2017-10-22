@@ -1,5 +1,5 @@
 body, h1 ,h2, h3, h4, h5, h6, p {
-	font-family: "Karma", sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif;
 }
 .op-active {
 	background-color: #bfbfbf;
@@ -151,4 +151,121 @@ select {
 a.op-bar-item i.fa img {
   position: relative; 
   top: -5px;
+}
+
+/* Inicio do estilo da página contas.php */
+
+  div.op-top-text {
+    position: relative;
+    top: 50px;
+    p{
+      float: left;
+      font-size: 18pt;
+    }
+    div.op-img-top {
+      background-image: url("../../Image/icons/bills-to-pay.png");
+      background-size: 30px 30px;
+      background-repeat: no-repeat;
+      float: left;
+      width: 5%;
+      height: 30px;
+    }
+  }
+  
+  hr#op-hr-1 {
+    position: relative;
+    top: 80px;
+  }
+
+  /* tabela do contas.php */
+
+  #entrada {
+    background-image: url('../../Image/icons/search.png'); 
+    background-position: 10px 12px; 
+    background-repeat: no-repeat; 
+    width: 40%; 
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #333; 
+    margin-bottom: 12px; 
+}
+
+#tabela {
+    border-collapse: collapse; 
+    width: 40%; 
+    border: 1px solid #333;
+    font-size: 18px; 
+}
+
+#tabela th, #tabela td {
+    text-align: left;
+    padding: 12px; 
+}
+
+#tabela tr {
+    border-bottom: 1px solid #333;
+}
+
+#tabela tr.header {
+    background-color: #333;
+    color: white;
+    
+}
+#tabela td:hover, tr:hover {
+      background-color: #666;
+      color: white;
+    }
+ #tabela tr:hover {}
+.op-tb-search {
+  position: relative;
+  top: 80px;
+  .op-tb-cadastro {
+    position: relative;
+    form.op-form-cadastro-contas {
+      position: relative;
+      top: 10px;
+      input[type=text]{
+      width: 40%;
+      border:1px solid #333;
+      }
+    legend {
+      width: 40%;
+      font-size: 12pt;
+    }
+    input[type=submit]{
+      width: 10% !important;
+      background-color: #333;
+      color: white;
+      font-weight: bold;
+      border:1px solid #333;
+      &:hover {
+        background-color:rgba(0,0,0,.9);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 720px){
+  #entrada {
+    width: 100%;
+  }
+  #tabela {
+    width: 100%;
+  }
+  .op-tb-search {
+    .op-tb-cadastro {
+      form.op-form-cadastro-contas {
+        input[type=text]{
+        width: 100%;
+        }
+      legend {
+        width: 100%;
+      }
+      input[type=submit]{
+        width: 50% !important;
+        }
+      }
+    }
+  }
 }
