@@ -13,7 +13,7 @@ input[type=text], input[type=password] {
 }
 
 button.op-btn-login {
-    background-color: black;
+    background-color: #666;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -47,7 +47,9 @@ span.psw {
     padding-top: 16px;
 }
 @media screen and (max-width:900px) {
-
+    .op-legend-50 {
+        width: 100%;
+    }
     form {
         position: relative;
         top: 100px;
@@ -95,8 +97,12 @@ span.psw {
         float: right;
         padding-top: 16px;
     }
+    
 }
 @media screen and (max-width: 600px) {
+    .op-legend-50 {
+        width: 100%;
+    }
     span.psw {
         display: block;
         float: none;
@@ -118,4 +124,8 @@ span.psw {
 .op-text-topo {
     position:relative;
     top: 80px;
+}
+
+.op-legend-50 {
+    width: 50%;
 }

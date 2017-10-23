@@ -134,7 +134,9 @@ select {
 /* sidebar menu */
 
 .op-sb-top {
-  position: relative;top:58px;
+  position: relative;
+  top:58px;
+  float: left;
 }
 
 .op-sidebar {
@@ -154,7 +156,15 @@ a.op-bar-item i.fa img {
 }
 
 /* Inicio do estilo da página contas.php */
-
+  .op-float-left {
+    float: left;
+    width: 45%;
+  }
+  @media screen and (max-width: 870px) {
+    .op-float-left {
+      width: 100%;
+    }
+  }
   div.op-top-text {
     position: relative;
     top: 50px;
@@ -167,7 +177,7 @@ a.op-bar-item i.fa img {
       background-size: 30px 30px;
       background-repeat: no-repeat;
       float: left;
-      width: 5%;
+      width: 10%;
       height: 30px;
     }
   }
@@ -175,6 +185,7 @@ a.op-bar-item i.fa img {
   hr#op-hr-1 {
     position: relative;
     top: 80px;
+    width: 95%;
   }
 
   /* tabela do contas.php */
@@ -183,7 +194,7 @@ a.op-bar-item i.fa img {
     background-image: url('../../Image/icons/search.png'); 
     background-position: 10px 12px; 
     background-repeat: no-repeat; 
-    width: 40%; 
+    width: 95%; 
     font-size: 16px; 
     padding: 12px 20px 12px 40px; 
     border: 1px solid #333; 
@@ -192,7 +203,7 @@ a.op-bar-item i.fa img {
 
 #tabela {
     border-collapse: collapse; 
-    width: 40%; 
+    width: 95%; 
     border-left: 1px solid #333;
     border-right: 1px solid #333;
     font-size: 18px; 
@@ -229,15 +240,15 @@ a.op-bar-item i.fa img {
       position: relative;
       top: 10px;
       input[type=text]{
-      width: 40%;
+      width: 95%;
       border:1px solid #333;
       }
     legend {
-      width: 40%;
+      width: 95%;
       font-size: 12pt;
     }
     input[type=submit]{
-      width: 10% !important;
+      width: 20% !important;
       background-color: #333;
       color: white;
       font-weight: bold;
@@ -272,4 +283,87 @@ a.op-bar-item i.fa img {
       }
     }
   }
+}
+
+.op-aside {
+  width: 50%;
+  float: left;
+  position: relative;
+  top: 50px;
+  p{
+      float: left;
+      font-size: 18pt;
+    }
+    div.op-img-top {
+      background-image: url("../../Image/icons/checked.png");
+      background-size: 30px 30px;
+      background-repeat: no-repeat;
+      float: left;
+      width: 10%;
+      height: 30px;
+    }
+}
+
+hr#op-hr-2 {
+    position: relative;
+    top: 30px;
+  }
+.op-lists {
+    position:relative;
+    top: 46px;
+    width:80%;
+}
+  #minhaEntrada {
+    background-image: url('../../Image/icons/search.png'); 
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #333; 
+    margin-bottom: 12px; 
+}
+
+
+#minhaUl {
+    
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#minhaUl li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; 
+    background-color: #f6f6f6; 
+    padding: 12px; 
+    text-decoration: none; 
+    font-size: 18px; 
+    color: black; 
+    display: block; 
+}
+
+#minhaUl li a:hover:not(.header) {
+    background-color: #eee; 
+}
+
+
+@media screen and (max-width:870px){
+  .op-aside {
+    position:relative;
+    top: 200px;
+  }
+}
+/* Inicio da estilização do preenchimento do lobby */
+
+div.preenchimento {
+  width:81.6%;
+  position:relative;
+  float:right;
+  top: 58px;
+}
+.teste {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
 }

@@ -16,7 +16,7 @@
 		<body style="font-family: 'PT Sans Narrow', sans-serif">
 			<!-- Menu do topo -->
 			<div class="op-top">
-			  <div class="op-black op-large op-w100">
+			  <div class="op-color op-large op-w100">
 			    <div class="op-center op-padding-16">LOGOTIPO</div>
 			  </div>
 			</div>
@@ -31,10 +31,10 @@
 				
 				<form name='formulariologin' id='formulariologin' action="" enctype="application/x-www-form-urlencoded" method="post" >
 					<div class="container">
-					    <label><b>Usuário</b></label><br />
+					    <legend class="op-legend-50"><label><b>Usuário</b></label></legend><br />
 					    <input type="text" placeholder="Digite usuário" name="uname" required>
 						<br />
-					    <label><b>Senha</b></label><br />
+					    <legend class="op-legend-50"><label><b>Senha</b></label></legend><br />
 					    <input type="password" placeholder="Digite senha" name="psw" required>
 						<br /><br />
 					    <button type="submit" class="op-btn-login" style="font-weight: bold">Entrar</button>

@@ -52,16 +52,68 @@
 					    <h5>Painel de Conrole</h5>
 					  </div>
 					  <div class="op-bar-block">
-					    <a href="#" class="op-bar-item op-button op-padding-16 op-hide-large op-dark-grey op-hover-black" onclick="op_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Fechar Menu</a>
-					    <a href="#" class="op-bar-item op-button op-padding op-active"><i class="fa fa-users fa-fw"></i>  Visão Geral</a>
-					    <a href="#" class="op-bar-item op-button op-padding"><i class="fa fa-eye fa-fw"><img src="../../Image/icons/admin.png" style="width: 17px;height: 15px;" alt="" /></i>  &nbsp;Administrativo</a>
-					    <a href="#" class="op-bar-item op-button op-padding"><i class="fa fa-users fa-fw"><img src="../../Image/icons/stock1.png" style="width: 17px;height: 15px;" alt="" /></i>  &nbsp;Estoque</a>
-					    <a href="#" class="op-bar-item op-button op-padding"><i class="fa fa-bullseye fa-fw"><img src="../../Image/icons/sale.png" style="width: 17px;height: 15px;" alt="" /></i>  &nbsp;Vendas</a>
-					    <a href="#" class="op-bar-item op-button op-padding"><i class="fa fa-diamond fa-fw"><img src="../../Image/icons/bills-to-pay.png" style="width: 17px;height: 15px;" alt="" /></i>  &nbsp;Contas</a>
-					    <a href="#" class="op-bar-item op-button op-padding"><i class="fa fa-bell fa-fw"><img src="../../Image/icons/reports2.png" style="width: 17px;height: 15px;" alt="" /></i>  &nbsp;Relatório Cliente</a>
-					    <a href="#" class="op-bar-item op-button op-padding"><i class="fa fa-bank fa-fw"><img src="../../Image/icons/reports1.png" style="width: 17px;height: 15px;" alt="" /></i>  &nbsp;Relatório Empresa</a>
-					    <a href="#" class="op-bar-item op-button op-padding"><i class="fa fa-history fa-fw"><img src="../../Image/icons/rl.png" style="width: 17px;height: 15px;" alt="" /></i>  &nbsp;Histórico</a>
-					    <a href="#" class="op-bar-item op-button op-padding"><i class="fa fa-cog fa-fw"><img src="../../Image/icons/cng.png" style="width: 17px;height: 15px;" alt="" /></i>  &nbsp;Configurações</a><br><br>
+					    <a href="#" class="op-bar-item op-button op-padding-16 op-hide-large op-dark-grey op-hover-black" onclick="op_close()" title="close menu">
+					    	<i class="fa fa-remove fa-fw"></i>
+					    	  Fechar Menu
+					    </a>
+					    <a href="#" class="op-bar-item op-button op-padding op-active visaoGeral">
+					    	<i class="fa fa-users fa-fw">
+					    		
+					    	</i>
+					    	  Visão Geral
+					    </a>
+					    <a href="#" class="op-bar-item op-button op-padding"  id="visaoAdministrativo" onclick="visaoAdministrativo()">
+					    	<i class="fa fa-eye fa-fw visaoAdministrativo">
+					    		<img src="../../Image/icons/admin.png" style="width: 17px;height: 15px;" alt="" />
+					    	</i>
+					    	  &nbsp;Administrativo
+					    </a>
+					    <a href="#" class="op-bar-item op-button op-padding"  id="visaoEstoque" onclick="visaoEstoque()">
+					    	<i class="fa fa-users fa-fw visaoEstoque">
+					    		<img src="../../Image/icons/stock1.png" style="width: 17px;height: 15px;" alt="" />
+					    	</i>
+					    	  &nbsp;Estoque
+					    </a>
+					    <a href="#" class="op-bar-item op-button op-padding"  id="visaoVendas" onclick="visaoVendas()">
+					    	<i class="fa fa-bullseye fa-fw visaoVendas">
+					    		<img src="../../Image/icons/sale.png" style="width: 17px;height: 15px;" alt="" />
+					    	</i>
+					    	  &nbsp;Vendas
+					    </a>
+					    <a href="#" class="op-bar-item op-button op-padding"  id="visaoContas" onclick="visaoContas()">
+							<i class="fa fa-diamond fa-fw">
+								<img src="../../Image/icons/bills-to-pay.png" style="width: 17px;height: 15px;" alt="" />
+							</i> 
+							 &nbsp;Contas
+						</a>					    
+						<a href="#" class="op-bar-item op-button op-padding"  id="visaoRelatorioCliente" onclick="visaoRelatorioCliente()">
+					    	<i class="fa fa-bell fa-fw visaoRelatorioCliente">
+					    		<img src="../../Image/icons/reports2.png" style="width: 17px;height: 15px;" alt="" />
+					    	</i>
+					    	  &nbsp;Relatório Cliente
+					    </a>
+					    <a href="#" class="op-bar-item op-button op-padding"  id="visaoRelatorioEmpresa" onclick="visaoRelatorioEmpresa()">
+					    	<i class="fa fa-bank fa-fw visaoRelatorioEmpresa">
+					    		<img src="../../Image/icons/reports1.png" style="width: 17px;height: 15px;" alt="" />
+					    	</i>
+					    	  &nbsp;Relatório Empresa
+					    </a>
+					    <a href="#" class="op-bar-item op-button op-padding" id="visaoHistorico" onclick="visaoHistorico()">
+					    	<i class="fa fa-history fa-fw visaoHistorico">
+					    		<img src="../../Image/icons/rl.png" style="width: 17px;height: 15px;" alt="" />
+					    	</i>
+					    	  &nbsp;Histórico
+					    </a>
+					    <a href="#" class="op-bar-item op-button op-padding"  id="visaoConfiguracao" onclick="visaoConfiguracao()">
+					    	<i class="fa fa-cog fa-fw visaoConfiguracao">
+					    		<img src="../../Image/icons/cng.png" style="width: 17px;height: 15px;" alt="" />
+					    	</i>
+					    	  &nbsp;Configurações
+					    </a>
+
+					    <br>
+					    <br>
+
 					  </div>
 					</nav>
 
@@ -70,10 +122,18 @@
 					<div class="op-overlay op-hide-medium op-animate-opacity" onclick="op_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 				</div>
 				
-
-
+				<div class="container">
+					<div class="container-fluid">
+						<div class="preenchimento">
+							
+						</div>
+					</div>
+				</div>
+	
 			
 			<script type="text/javascript">
+
+
 				function myFunction() {
 				    var x = document.getElementById("myTopnav");
 				    if (x.className === "topnav") {
@@ -109,6 +169,7 @@
 			</script>	
 			<script type="text/javascript" src="../../Js/jquery-3.2.1.min.js"></script>
 			<script type="text/javascript" src="../../Js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="lobby-script.js"></script>
 			<?php
 			//var_dump($_POST);
 
