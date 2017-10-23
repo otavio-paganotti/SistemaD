@@ -82,7 +82,7 @@ select {
 
 
 .dropbtn {
-    background-color: black;
+    background-color: #666;
     color: white;
     padding: 18px;
     font-size: 16px;
@@ -105,7 +105,7 @@ select {
 }
 
 .dropdown-content a {
-    color: black;
+    color: inherit;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -122,7 +122,7 @@ select {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: black;
+    background-color: #666;
 }
 
 @media screen and(max-width: 900px){
@@ -134,7 +134,7 @@ select {
 /* sidebar menu */
 
 .op-sb-top {
-  position: relative;top:57px;
+  position: relative;top:58px;
 }
 
 .op-sidebar {
@@ -193,7 +193,8 @@ a.op-bar-item i.fa img {
 #tabela {
     border-collapse: collapse; 
     width: 40%; 
-    border: 1px solid #333;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
     font-size: 18px; 
 }
 
@@ -203,7 +204,10 @@ a.op-bar-item i.fa img {
 }
 
 #tabela tr {
-    border-bottom: 1px solid #333;
+    
+}
+#tabela tr.op-tb-ultimo {
+  border-bottom: 1px solid #333;
 }
 
 #tabela tr.header {

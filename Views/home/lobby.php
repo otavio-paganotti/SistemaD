@@ -16,13 +16,13 @@
 		<body style="font-family: 'PT Sans Narrow', sans-serif">
 			<!-- Menu do topo -->
 			<div class="op-top">
-			  <div class="op-black op-large op-w100">
+			  <div class="op-color op-large op-w100">
 			    <div class="container">
 			    	<div class="container-fluid">
 			    		<div class="op-left op-padding-16">LOGOTIPO</div>
 						
 				    	<div class="dropdown op-right">
-							  <button class="dropbtn" style="font-family: Arial;font-size: 11pt;">Opções &nabla;</button>
+							  <button class="dropbtn">Opções &nabla;</button>
 							  <div class="dropdown-content">
 							    <a href="#">Redefinir senha</a>
 							    <a href="#">Configurações</a>
@@ -39,9 +39,7 @@
 				<div class="op-sb-top">
 					<nav class="op-sidebar op-collapse op-white op-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
 					  <div class="op-container op-row">
-					    <div class="op-col s4">
-					      <img src="../../Image/img-art.png" class="op-circle op-margin-right" style="width:46px;height: 46px;">
-					    </div>
+					    
 					    <div class="op-col s8 op-bar">
 					      <span>Bem-vindo, <strong>USUÁRIO</strong></span><br>
 					      <a href="#" class="op-bar-item op-button"><i class="fa fa-envelope"><img src="../../Image/icons/msg.png" style="width: 17px;height: 15px;" alt="" /></i></a>
@@ -49,7 +47,7 @@
 					      <a href="#" class="op-bar-item op-button"><i class="fa fa-cog"><img src="../../Image/icons/cng.png" style="width: 17px;height: 15px;" alt="" /></i></a>
 					    </div>
 					  </div>
-					  <hr>
+					  <hr class="color-diferent">
 					  <div class="op-container">
 					    <h5>Painel de Conrole</h5>
 					  </div>

@@ -47,7 +47,7 @@
 					    <td>Descrição 3</td>
 					    <td>00.00</td>
 					  </tr>
-					  <tr>
+					  <tr class="op-tb-ultimo">
 					    <td>Item 4</td>
 					    <td>Descrição 4</td>
 					    <td>00.00</td>
