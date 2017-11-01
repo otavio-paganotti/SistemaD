@@ -20,7 +20,7 @@
 			    <div class="container">
 			    	<div class="container-fluid">
 			    		<div class="op-left op-padding-16">LOGOTIPO</div>
-						
+						 
 				    	<div class="dropdown op-right">
 							  <button class="dropbtn">Opções &nabla;</button>
 							  <div class="dropdown-content">
@@ -29,7 +29,7 @@
 							    <a href="#">Sair</a>
 							  </div>
 						</div>
-				    </div>
+						 
 			    </div>
 			  </div>
 			  
