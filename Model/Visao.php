@@ -2,8 +2,8 @@
 
 class Visao{
 		
-	public function carrega($arquivophp, $dados){
-		require("$arquivophp.php");
+	public function carrega($sessao, $arquivophp, $dados){
+		require("Views//$sessao//$arquivophp.php");
 	}
 	
 }

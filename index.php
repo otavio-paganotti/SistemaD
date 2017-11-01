@@ -19,7 +19,7 @@
 		session_start();
 		//Função que carrega as classes PHP automaticamente
 		function carregaClasse($classe){
-			$arquivo=$classe.".php";
+			$arquivo="Model//".$classe.".php";
 			if(file_exists($arquivo)){
 				require_once($arquivo);
 				return true;

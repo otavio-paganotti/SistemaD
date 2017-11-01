@@ -1,0 +1,29 @@
+[33mcommit b5a1b2a280d2b44456a8c07ee7f25c09479c6aa9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: OTAVIO PAGANOTTI <otaviopaganotti@outlook.com>
+Date:   Wed Nov 1 00:53:20 2017 -0300
+
+    Alterações do dia 01/11/17
+
+[33mcommit 8c953e9542c60dcabd63699d9dd4ca200a548df6[m
+Author: OTAVIO PAGANOTTI <otaviopaganotti@outlook.com>
+Date:   Mon Oct 23 19:14:51 2017 -0300
+
+    Várias alterações no que se diz respeito ao estilo da página, integração do jquery para carregamendo das páginas dentro do próprio lobby, leves alterações de design, e mais
+
+[33mcommit 7b687fbca710d7726d4e3a016b4c6a44c3f6f84d[m
+Author: OTAVIO PAGANOTTI <otaviopaganotti@outlook.com>
+Date:   Mon Oct 23 14:59:52 2017 -0300
+
+    Alterações sutis no design
+
+[33mcommit dc8c3391c8ae29425ed1b822221c3fce1c2d85f7[m
+Author: OTAVIO PAGANOTTI <otaviopaganotti@outlook.com>
+Date:   Sun Oct 22 19:44:06 2017 -0300
+
+    alteração da fonte do site
+
+[33mcommit 08adc3d7c504b23e715248a95ebb8f96a9b6909c[m
+Author: OTAVIO PAGANOTTI <otaviopaganotti@outlook.com>
+Date:   Sun Oct 22 19:26:10 2017 -0300
+
+    Ajustes nas views e a estilização da página contas.php que será adicionada em breve à página lobby.php, ainda há estilizações para fazer nela
