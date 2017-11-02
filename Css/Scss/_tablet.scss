@@ -1,4 +1,6 @@
 @media screen and (min-width: 321px) and (max-width: 640px){
+	div.preenchimento {width:100%;position:relative;float:right;left: 10px;}
+
 	.op-float-left {width: 100%;} 
 	#entrada {width: 100%;}
   	#tabela {width: 100%;}
@@ -15,9 +17,13 @@
 	.op-aside {
 		width: 100%;
 	}
+
+	.op-float-left {width: 100%;}
+	.op-lists {width:100%;}
 }
 
 @media screen and (min-width: 641px) and (max-width: 959px){
+	div.preenchimento {width:100%;position:relative;float:right;left: 10px;}
 	.op-float-left {width: 100%;}
 	#entrada {width: 100%;}
   	#tabela {width: 100%;}
@@ -30,4 +36,8 @@
 	.tab {
 		visibility: visible
 	}
+
+
+	.op-float-left {width: 100%;}
+	.op-lists {width:100%;}
 }

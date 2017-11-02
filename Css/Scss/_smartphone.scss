@@ -1,4 +1,5 @@
 @media screen and (max-width: 320px){
+	div.preenchimento {width:100%;position:relative;float:right;left: 10px;}
 	.op-float-left {width: 100%;}
 	#entrada {width: 100%;}
   	#tabela {width: 100%;}
@@ -11,4 +12,8 @@
 	.tab {
 		visibility: visible
 	}
+
+	.op-float-left {width: 100%;}
+	.op-lists {width:100%;}
+	
 }

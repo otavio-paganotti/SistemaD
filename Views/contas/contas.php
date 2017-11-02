@@ -8,9 +8,10 @@
 		<link type="text/css" rel="stylesheet" href="../../Css/Css/plugins.css" media="all">
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet"> 
 		<title>Contas</title>
-
+		<style type="text/css">
+			@media screen and (max-width: 940px){::-webkit-input-placeholder  { position: relative; left: 30px; }input:-moz-placeholder { position: relative; left: 30px; }textarea:-moz-placeholder { position: relative; left: 30px; }​}
+		</style>
 	</head>
-
 	<body style="font-family: 'PT Sans Narrow', sans-serif">
 		<div class="container">
 			<div class="container-fluid">
@@ -69,6 +70,9 @@
 						</div>
 					</div>
 				</div>
+				
+				<br /><br /><br />
+
 				<aside class="op-aside">
 					<div class="op-element-list">
 						<div class="op-img-top">
@@ -91,9 +95,12 @@
 						  <li><a href="#">Item 7</a></li>
 						</ul>
 					</div>
+					<br /><br /><br />
 				</aside>
 			</div>
 		</div>
+
+
 		
 		<script type="text/javascript">
 			function buscarTabela() {

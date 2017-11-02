@@ -1,11 +1,19 @@
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) and (max-width: 1920px){
 	.tab {visibility: hidden;}
 	.op-sb-top {position: absolute;top: 0;}
 
 	/* Inicio da estilização do preenchimento do lobby */
-	div.preenchimento {width:81.6%;position:relative;float:right;top: 58px;}
+	div.preenchimento {width:81%;position:relative;float:right;top: 68px;left: 10px;}
+	
 
-	.op-aside {
-		width: 50%;
-	}
+	.op-float-left {float: left;width: 45%;}
+
+	#entrada {width: 95%;font-size: 16px;padding: 12px 20px 12px 40px;}
+	#tabela {width: 95%;}
+	input[type=text] {width: 95%;}
+	legend {width: 95%;}
+	input[type=submit]{width: 30% !important;}
+	hr#op-hr-1 {position: relative;top: 80px;width: 95%;}
+	.op-aside {width: 50%;float: left;}
+	.op-lists {width:80%;}
 }
