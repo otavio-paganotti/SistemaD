@@ -1,6 +1,7 @@
 @media screen and (min-width: 321px) and (max-width: 640px){
 	div.preenchimento {width:100%;position:relative;float:right;left: 10px;}
-
+	hr#op-hr-2 {position: relative;}
+	hr#op-hr-1 {position: relative;width: 95%;}
 	.op-float-left {width: 100%;} 
 	#entrada {width: 100%;}
   	#tabela {width: 100%;}
@@ -11,12 +12,8 @@
 	    input[type=submit]{width: 50% !important;}}}}
 	.op-aside {position:relative;top: 200px;}
 
-	.tab {
-		visibility: visible
-	}
-	.op-aside {
-		width: 100%;
-	}
+	.tab {visibility: visible}
+	.op-aside {width: 100%;}
 
 	.op-float-left {width: 100%;}
 	.op-lists {width:100%;}
@@ -24,6 +21,9 @@
 
 @media screen and (min-width: 641px) and (max-width: 959px){
 	div.preenchimento {width:100%;position:relative;float:right;left: 10px;}
+	hr#op-hr-2 {position: relative;}
+	hr#op-hr-1 {position: relative;width: 95%;}
+
 	.op-float-left {width: 100%;}
 	#entrada {width: 100%;}
   	#tabela {width: 100%;}
@@ -33,9 +33,7 @@
 	  	legend {width: 100%;}
 	    input[type=submit]{width: 50% !important;}}}}
 	.op-aside {position:relative;top: 200px;}
-	.tab {
-		visibility: visible
-	}
+	.tab {visibility: visible}
 
 
 	.op-float-left {width: 100%;}
