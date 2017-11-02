@@ -15,29 +15,68 @@
 
 		<body style="font-family: 'PT Sans Narrow', sans-serif">
 			<!-- Menu do topo -->
-			<div class="op-top">
-			  <div class="op-color op-large op-w100">
-			    <div class="container">
-			    	<div class="container-fluid">
-			    		<div class="op-left op-padding-16">LOGOTIPO</div>
-						
-				    	<div class="dropdown op-right">
-							  <button class="dropbtn">Opções &nabla;</button>
-							  <div class="dropdown-content">
-							    <a href="#">Redefinir senha</a>
-							    <a href="#">Configurações</a>
-							    <a href="#">Sair</a>
-							  </div>
-						</div>
-				    </div>
-			    </div>
-			  </div>
-			  
+			<div class="tab">
+				<button class="tablinks">
+			  		<i class="fa fa-users fa-fw">
+					    <img src="../../Image/icons/msg.png" style="width: 17px;height: 15px;" alt="" />	
+					</i>
+				</button>
+				<button class="tablinks">
+			  		<i class="fa fa-users fa-fw">
+					    <img src="../../Image/icons/plp.png" style="width: 17px;height: 15px;" alt="" />	
+					</i>
+				</button>
+				<hr/>
+			  	<button class="tablinks" id="visaoGeral" onclick="visaoAdministrativo()">
+			  		<i class="fa fa-users fa-fw visaoGeral">
+					    <img src="../../Image/icons/page.png" style="width: 17px;height: 15px;" alt="" />	
+					</i>
+				</button>
+			  	<button class="tablinks" id="visaoAdministrativo" onclick="visaoAdministrativo()">
+			  		<i class="fa fa-eye fa-fw visaoAdministrativo">
+					    <img src="../../Image/icons/admin.png" style="width: 17px;height: 15px;" alt="" />
+					</i>
+				</button>
+			  	<button class="tablinks" id="visaoEstoque" onclick="visaoEstoque()">
+			  		<i class="fa fa-eye fa-fw visaoEstoque">
+					    <img src="../../Image/icons/stock1.png" style="width: 17px;height: 15px;" alt="" />
+					</i>
+			  	</button>
+			  	<button class="tablinks" id="visaoVendas" onclick="visaoVendas()">
+			  		<i class="fa fa-eye fa-fw visaoVendas">
+					    <img src="../../Image/icons/sale.png" style="width: 17px;height: 15px;" alt="" />
+					</i>
+			  	</button>
+			  	<button class="tablinks" id="visaoContas" onclick="visaoContas()">
+			  		<i class="fa fa-eye fa-fw visaoContas">
+					    <img src="../../Image/icons/bills-to-pay.png" style="width: 17px;height: 15px;" alt="" />
+					</i>
+			  	</button>
+			  	<button class="tablinks" id="visaoRelatorioCliente" onclick="visaoRelatorioCliente()">
+			  		<i class="fa fa-eye fa-fw visaoRelatorioCliente">
+					    <img src="../../Image/icons/reports1.png" style="width: 17px;height: 15px;" alt="" />
+					</i>
+			  	</button>
+			  	<button class="tablinks" id="visaoRelatorioEmpresa" onclick="visaoRelatorioEmpresa()">
+			  		<i class="fa fa-eye fa-fw visaoRelatorioEmpresa">
+					    <img src="../../Image/icons/reports2.png" style="width: 17px;height: 15px;" alt="" />
+					</i>
+			  	</button>
+			  	<button class="tablinks" id="visaoHistorico" onclick="visaoHistorico()">
+			  		<i class="fa fa-eye fa-fw visaoHistorico">
+					    <img src="../../Image/icons/rl.png" style="width: 17px;height: 15px;" alt="" />
+					</i>
+			  	</button>
+			  	<button class="tablinks" id="visaoConfiguracao" onclick="visaoConfiguracao()">
+			  		<i class="fa fa-eye fa-fw visaoConfiguracao">
+					    <img src="../../Image/icons/cng.png" style="width: 17px;height: 15px;" alt="" />
+					</i>
+			  	</button>
 			</div>
 			
 			<!-- Sidebar/menu -->
 				<div class="op-sb-top">
-					<nav class="op-sidebar op-collapse op-white op-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+					<nav class="op-sidebar op-collapse op-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
 					  <div class="op-container op-row">
 					    
 					    <div class="op-col s8 op-bar">

@@ -1,0 +1,14 @@
+@media screen and (max-width: 320px){
+	.op-float-left {width: 100%;}
+	#entrada {width: 100%;}
+  	#tabela {width: 100%;}
+  	.op-tb-search {
+  		.op-tb-cadastro {
+  			form.op-form-cadastro-contas {input[type=text]{width: 100%;}
+	  	legend {width: 100%;}
+	    input[type=submit]{width: 50% !important;}}}}
+	.op-aside {position:relative;top: 200px;}
+	.tab {
+		visibility: visible
+	}
+}

@@ -1,0 +1,72 @@
+/* CSS DA PARTE DE ENCOMENDAS */
+#regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 50%;
+  min-width: 300px;
+}
+h1.encomendass {
+  text-align: center;  
+}
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+input.invalid {
+  background-color: #ffdddd;
+}
+
+.tab {
+  display: none;
+}
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.8;
+}
+#prevBtn {
+  background-color: #bbbbbb;
+  color:white;
+}
+#nextBtn {
+	color:white;
+}
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #999;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+.step.active {
+  opacity: 1;
+}
+
+.step.finish {
+  background-color: #ccc;
+}
+select {
+	padding: 10px;
+  	width: 100%;
+  	font-size: 17px;
+  	font-family: Raleway;
+  	border: 1px solid #aaaaaa;
+}
+
+/*FIM DO CSS DA PARTE DE ENCOMENDAS */

@@ -1,0 +1,44 @@
+body, h1 ,h2, h3, h4, h5, h6, p {font-family: 'PT Sans Narrow', sans-serif;}
+
+/* sidebar menu */
+
+.op-sb-top {position: absolute;float: left;}
+.op-sidebar {background-color: #ddd !important;}
+.op-bar-item:hover {background-color: #999 !important;text-decoration: none;}
+.op-active {background-color: #666 !important;}
+a.op-bar-item i.fa img {position: relative;top: -5px;}
+
+/* fim do sidebar menu */
+
+/* Inicio do estilo da página contas.php */
+.op-float-left {float: left;width: 45%;}
+div.op-top-text {position: relative;top: 50px;p{float: left;font-size: 18pt;}
+div.op-img-top {background-image: url("../../Image/icons/bills-to-pay.png");background-size: 30px 30px;
+background-repeat: no-repeat;float: left;width: 10%;height: 30px;}}
+hr#op-hr-1 {position: relative;top: 80px;width: 95%;}
+
+/* tabela do contas.php */
+
+#entrada {background-image: url('../../Image/icons/search.png');background-position: 10px 12px;background-repeat: no-repeat; 
+width: 95%;font-size: 16px;padding: 12px 20px 12px 40px;border: 1px solid #333;margin-bottom: 12px;}
+#tabela {border-collapse: collapse;width: 95%;border-left: 1px solid #333;border-right: 1px solid #333;font-size: 18px;}
+#tabela th, #tabela td {text-align: left;padding: 12px;}
+#tabela tr.op-tb-ultimo {border-bottom: 1px solid #333;}
+#tabela tr.header {background-color: #333;color: white;}
+#tabela td:hover, tr:hover {background-color: #666;color: white;}
+.op-tb-search {position: relative;top: 80px;.op-tb-cadastro {position: relative;
+form.op-form-cadastro-contas {position: relative;top: 10px;input[type=text]{width: 95%;border:1px solid #333;}
+legend {width: 95%;font-size: 12pt;}input[type=submit]{width: 20% !important;background-color: #333;color: white;
+font-weight: bold;border:1px solid #333;&:hover {background-color:rgba(0,0,0,.9);}}}}}
+.op-aside {float: left;position: relative;top: 50px;p{float: left;font-size: 18pt;}
+div.op-img-top {background-image: url("../../Image/icons/checked.png");background-size: 30px 30px;background-repeat: no-repeat;
+float: left;width: 10%;height: 30px;}}
+hr#op-hr-2 {position: relative;top: 30px;}
+.op-lists {position:relative;top: 46px;width:80%;}
+#minhaEntrada{background-image: url('../../Image/icons/search.png');background-position:10px 12px;background-repeat: no-repeat;
+width: 100%;font-size: 16px;padding: 12px 20px 12px 40px;border: 1px solid #333;margin-bottom: 12px;}
+#minhaUl {list-style-type: none;padding: 0;margin: 0;}
+#minhaUl li a{border:1px solid #ddd;margin-top:-1px;background-color:#f6f6f6;padding:12px;text-decoration:none;font-size:18px; 
+color: black;display: block;}
+#minhaUl li a:hover:not(.header) {background-color: #eee;}
+

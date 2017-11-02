@@ -1,0 +1,11 @@
+@media screen and (min-width: 992px){
+	.tab {visibility: hidden;}
+	.op-sb-top {position: absolute;top: 0;}
+
+	/* Inicio da estilização do preenchimento do lobby */
+	div.preenchimento {width:81.6%;position:relative;float:right;top: 58px;}
+
+	.op-aside {
+		width: 50%;
+	}
+}
