@@ -11,7 +11,11 @@
 		<link type="text/css" rel="stylesheet" href="../../Css/Css/plugins.css" media="all">
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet"> 
 		<title>Estoque</title>
+		<style type="text/css">
+			::-webkit-input-placeholder  { position: relative; left: 90px; }input:-moz-placeholder { position: relative; left: 90px; }textarea:-moz-placeholder { position: relative; left: 90px; }​
 
+			
+		</style>
 		</head>
 
 		<body style="font-family: 'PT Sans Narrow', sans-serif">
@@ -22,11 +26,14 @@
 						</div>
 						<p>Estoque (Mês)</p>	
 					</div>
-					<hr id="op-hr-1" />
+					<hr id="op-hr-3" />
 					<br />
-					<div class="op-tb-search">
+					
+
+
+					<div class="op-tb-search2">
 						<input type="text" id="entrada2" onkeyup="filtraItens()" placeholder="Procure por nomes">
-						<button id="op-add-stock" class="btn">Adicionar</button>
+						<br /><br /><br /><br /><br /><br />
 						<table id="tabela2">
 						  <tr class="header2">
 						    <th style="width:25%;">Nome</th>
@@ -60,15 +67,19 @@
 						  </tr>
 						</table> 
 						<br />
-				</div>
-			</div>	
+					</div>
+					<br /><br /><br />
+
+					<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+				</div>	
+			</div>
 			<script type="text/javascript">
 			function filtraItens() {
 			  // Declaração de variáveis
 			  var input, filter, table, tr, td, i;
-			  input = document.getElementById("entrada");
+			  input = document.getElementById("entrada2");
 			  filter = input.value.toUpperCase();
-			  table = document.getElementById("tabela");
+			  table = document.getElementById("tabela2");
 			  tr = table.getElementsByTagName("tr");
 
 			  // Loop em todas as linhas da tabela e ocultar aqueles que não correspondem à consulta de pesquisa

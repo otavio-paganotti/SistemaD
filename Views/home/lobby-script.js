@@ -75,6 +75,9 @@ $(function visaoConfiguracao(){
 });
 
 
+$(function visaoGeral2(){
+	
+});
 
 $(function visaoAdministrativo2(){
 	$('#visaoAdministrativo2').bind('click', function(){
@@ -97,7 +100,7 @@ $(function visaoVendas2(){
 		$.post("../vendas/vendas.php", function(pagina){
 			$('.preenchimento').html(pagina);
 		});
-		//$('#visaoVendas').addClass("op-active");
+		
 	});
 });
 
@@ -107,7 +110,7 @@ $(function visaoContas2(){
 		$.post("../contas/contas.php", function(pagina){
 			$('.preenchimento').html(pagina);
 		});
-		//$('#visaoContas').addClass("op-active");
+		
 	});
 
 });
@@ -143,6 +146,5 @@ $(function visaoConfiguracao2(){
 		});
 	});
 });
-
 
 

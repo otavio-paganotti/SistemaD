@@ -75,7 +75,7 @@
 
 				<aside class="op-aside">
 					<div class="op-element-list">
-						<div class="op-img-top2">
+						<div class="op-img-top">
 						</div>
 						<p>Contas pagas (Mês)</p>	
 					</div>

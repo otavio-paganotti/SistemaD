@@ -12,25 +12,9 @@ a.op-bar-item i.fa img {position: relative;top: -5px;}
 
 /* Inicio do estilo da página contas.php */
 
-div.op-top-text {position: relative;top: 10px;p{float: left;font-size: 18pt;}
+div.op-top-text {position: relative;top: 20px;p{float: left;font-size: 18pt;}
 div.op-img-top {background-image: url("../../Image/icons/bills-to-pay.png");background-size: 30px 30px;
 background-repeat: no-repeat;float: left;width: 10%;height: 30px;}}
-
-/* Estilo do estoque.php */
-div.op-top-text2 {position: relative;top: 10px;p{float: left;font-size: 18pt;}
-div.op-img-top2 {background-image: url("../../Image/icons/stock2.png");background-size: 30px 30px;
-background-repeat: no-repeat;float: left;width: 10%;height: 30px;}}
-#entrada2 {background-image: url('../../Image/icons/search.png');background-position: 10px 12px;background-repeat: no-repeat; 
-border: 1px solid #333;width:80%;margin-bottom: 12px;position:relative;top:50px;width:65%;float:left;}
-#tabela2 {position:relative;width:80%;top:50px;border-collapse: collapse;border-left: 1px solid #333;border-right: 1px solid #333;font-size: 18px;}
-#tabela2 th, #tabela2 td {text-align: left;padding: 12px;}
-#tabela2 tr.op-tb-ultimo {border-bottom: 1px solid #333;}
-#tabela2 tr.header2 {background-color: #333;color: white;}
-#tabela2 td:hover, tr:hover {background-color: #666;color: white;}
-#tabela2 tr td.delete {background-image: url("../../Image/icons/trash1.png");background-size: 30px 30px;
-background-repeat: no-repeat;width: 10%;height: 30px; &:hover{background-image: url("../../Image/icons/trash2.png");background-size: 30px 30px;
-background-repeat: no-repeat;}}
-#op-add-stock {width:10%;}
 
 
 /* tabela do contas.php */
@@ -48,13 +32,38 @@ legend {font-size: 12pt;}input[type=submit]{background-color: #333;color: white;
 font-weight: bold;border:1px solid #333;&:hover {background-color:rgba(0,0,0,.9);}}}}}
 
 .op-aside {position: relative;top:20px;p{float: left;font-size: 18pt;}
-div.op-img-top2 {background-image: url("../../Image/icons/checked.png");background-size: 30px 30px;background-repeat: no-repeat;
+div.op-img-top {background-image: url("../../Image/icons/checked.png");background-size: 30px 30px;background-repeat: no-repeat;
 float: left;width: 10%;height: 30px;}}
-.op-lists {position:relative;top: -10px;}
+hr#op-hr-2 {position: relative;top: 30px;}
+.op-lists {position:relative;top: 46px;}
 #minhaEntrada{background-image: url('../../Image/icons/search.png');background-position:10px 12px;background-repeat: no-repeat;
 width: 100%;font-size: 16px;padding: 12px 20px 12px 40px;border: 1px solid #333;margin-bottom: 12px;}
 #minhaUl {list-style-type: none;padding: 0;margin: 0;}
 #minhaUl li a{border:1px solid #ddd;margin-top:-1px;background-color:#f6f6f6;padding:12px;text-decoration:none;font-size:18px; 
 color: black;display: block;}
 #minhaUl li a:hover:not(.header) {background-color: #eee;}
+
+/* Estilo do estoque.php */
+
+div.op-top-text2 {position: relative;top: 10px;p{float: left;font-size: 18pt;}
+div.op-img-top2 {background-image: url("../../Image/icons/stock2.png");background-size: 30px 30px;
+background-repeat: no-repeat;float: left;width: 10%;height: 30px;}}
+#entrada2 {background-image: url('../../Image/icons/search.png');background-position: 10px 12px;background-repeat: no-repeat; 
+border: 1px solid #333;width:10%;margin-bottom: 12px;position:relative;top:50px;float:left;}
+#op-hr-3 {position:relative;top:50px;left:-225px;}
+
+div.op-top-text2 {position: relative;top: 10px;p{float: left;font-size: 18pt;}
+div.op-img-top2 {background-image: url("../../Image/icons/stock2.png");background-size: 30px 30px;
+background-repeat: no-repeat;float: left;width: 10%;height: 30px;}}
+
+.op-tb-search2 #tabela2{border-left:1px solid #333;border-right:1px solid #333;}
+.op-tb-search2 #tabela2 th, #tabela2 td {text-align: left;padding: 12px;}
+.op-tb-search2 #tabela2 tr.op-tb-ultimo {border-bottom: 1px solid #333;}
+.op-tb-search2 #tabela2 tr.header2 {background-color: #333;color: white;}
+.op-tb-search2 #tabela2 td:hover, tr:hover {background-color: #666;color: white;}
+.op-tb-search2 #tabela2 tr td.delete {background-image: url("../../Image/icons/trash1.png");background-size: 30px 30px;
+background-repeat: no-repeat;padding-left:40px;width: 10%;height: 30px; &:hover{background-image: url("../../Image/icons/trash2.png");background-size: 30px 30px;
+background-repeat: no-repeat;}}
+
+/* Estilo do vendas.php */
 

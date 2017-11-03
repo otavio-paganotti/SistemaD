@@ -28,47 +28,47 @@
 				</button>
 				<hr/>
 			  	<button class="tablinks" id="visaoGeral2" onclick="visaoAdministrativo2()">
-			  		<i class="fa fa-users fa-fw visaoGeral">
+			  		<i class="fa fa-users fa-fw visaoGeral2">
 					    <img src="../../Image/icons/page.png" style="width: 17px;height: 15px;" alt="" />	
 					</i>
 				</button>
 			  	<button class="tablinks" id="visaoAdministrativo2" onclick="visaoAdministrativo2()">
-			  		<i class="fa fa-eye fa-fw visaoAdministrativo">
+			  		<i class="fa fa-eye fa-fw visaoAdministrativo2">
 					    <img src="../../Image/icons/admin.png" style="width: 17px;height: 15px;" alt="" />
 					</i>
 				</button>
 			  	<button class="tablinks" id="visaoEstoque2" onclick="visaoEstoque2()">
-			  		<i class="fa fa-eye fa-fw visaoEstoque">
+			  		<i class="fa fa-eye fa-fw visaoEstoque2">
 					    <img src="../../Image/icons/stock1.png" style="width: 17px;height: 15px;" alt="" />
 					</i>
 			  	</button>
 			  	<button class="tablinks" id="visaoVendas2" onclick="visaoVendas2()">
-			  		<i class="fa fa-eye fa-fw visaoVendas">
+			  		<i class="fa fa-eye fa-fw visaoVendas2">
 					    <img src="../../Image/icons/sale.png" style="width: 17px;height: 15px;" alt="" />
 					</i>
 			  	</button>
 			  	<button class="tablinks" id="visaoContas2" onclick="visaoContas2()">
-			  		<i class="fa fa-eye fa-fw visaoContas">
+			  		<i class="fa fa-eye fa-fw visaoContas2">
 					    <img src="../../Image/icons/bills-to-pay.png" style="width: 17px;height: 15px;" alt="" />
 					</i>
 			  	</button>
 			  	<button class="tablinks" id="visaoRelatorioCliente2" onclick="visaoRelatorioCliente2()">
-			  		<i class="fa fa-eye fa-fw visaoRelatorioCliente">
+			  		<i class="fa fa-eye fa-fw visaoRelatorioCliente2">
 					    <img src="../../Image/icons/reports1.png" style="width: 17px;height: 15px;" alt="" />
 					</i>
 			  	</button>
 			  	<button class="tablinks" id="visaoRelatorioEmpresa2" onclick="visaoRelatorioEmpresa2()">
-			  		<i class="fa fa-eye fa-fw visaoRelatorioEmpresa">
+			  		<i class="fa fa-eye fa-fw visaoRelatorioEmpresa2">
 					    <img src="../../Image/icons/reports2.png" style="width: 17px;height: 15px;" alt="" />
 					</i>
 			  	</button>
 			  	<button class="tablinks" id="visaoHistorico2" onclick="visaoHistorico2()">
-			  		<i class="fa fa-eye fa-fw visaoHistorico">
+			  		<i class="fa fa-eye fa-fw visaoHistorico2">
 					    <img src="../../Image/icons/rl.png" style="width: 17px;height: 15px;" alt="" />
 					</i>
 			  	</button>
 			  	<button class="tablinks" id="visaoConfiguracao2" onclick="visaoConfiguracao2()">
-			  		<i class="fa fa-eye fa-fw visaoConfiguracao">
+			  		<i class="fa fa-eye fa-fw visaoConfiguracao2">
 					    <img src="../../Image/icons/cng.png" style="width: 17px;height: 15px;" alt="" />
 					</i>
 			  	</button>
