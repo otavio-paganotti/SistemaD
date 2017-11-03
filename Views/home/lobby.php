@@ -27,7 +27,7 @@
 					</i>
 				</button>
 				<hr/>
-			  	<button class="tablinks" id="visaoGeral2" onclick="visaoAdministrativo2()">
+			  	<button class="tablinks" id="visaoGeral2" onclick="visaoGeral2();">
 			  		<i class="fa fa-users fa-fw visaoGeral2">
 					    <img src="../../Image/icons/page.png" style="width: 17px;height: 15px;" alt="" />	
 					</i>
@@ -95,9 +95,9 @@
 					    	<i class="fa fa-remove fa-fw"></i>
 					    	  Fechar Menu
 					    </a>
-					    <a href="#" class="op-bar-item op-button op-padding op-active visaoGeral">
+					    <a href="#" class="op-bar-item op-button op-padding op-active visaoGeral"  id="visaoGeral">
 					    	<i class="fa fa-users fa-fw">
-					    		
+					    		<img src="../../Image/icons/plp.png" style="width: 17px;height: 15px;" alt="" />
 					    	</i>
 					    	  Visão Geral
 					    </a>
@@ -209,6 +209,7 @@
 			<script type="text/javascript" src="../../Js/jquery-3.2.1.min.js"></script>
 			<script type="text/javascript" src="../../Js/bootstrap.min.js"></script>
 			<script type="text/javascript" src="lobby-script.js"></script>
+			<script type="text/javascript" src="../vendas/vendas-script.js"></script>
 			<?php
 			//var_dump($_POST);
 

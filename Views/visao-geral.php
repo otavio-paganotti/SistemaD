@@ -5,9 +5,9 @@
 
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link type="text/css" rel="stylesheet" href="../../Css/Css/op.css" media="all">
-		<link type="text/css" rel="stylesheet" href="../../Css/Css/style.css" media="all">
-		<link type="text/css" rel="stylesheet" href="../../Css/Css/plugins.css" media="all">
+		<link type="text/css" rel="stylesheet" href="../Css/Css/op.css" media="all">
+		<link type="text/css" rel="stylesheet" href="../Css/Css/style.css" media="all">
+		<link type="text/css" rel="stylesheet" href="../Css/Css/plugins.css" media="all">
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet"> 
 		<title>Lobby</title>
 
@@ -17,21 +17,14 @@
 			<div class="container">
 				<div class="container-fluid">
 					
-					<div class="op-top-text3">
-						<div class="op-img-top3"></div>
-						<p>Vendas (Mês)</p>
+					<div class="op-top-text5">
+						<div class="op-img-top5"></div>
+						<p>Visão Geral</p>
 					</div>
 					<hr id="op-hr-3" />
-					<br /><br />
-					<button class="op-btn-login" id="cadastrarCliente" onclick="cadastrarCliente()">Cadastrar Cliente</button>
-					<button class="op-btn-login" id="clienteCadastrado" onclick="clienteCadastrado()">Cliente Cadastrado</button>
-					<br /><br />
-					<div class="op-btn-action">
-						
-					</div>
-					</div>
+					<br /><br /><br />
 				</div>
-			</div>
+			</div>	
 			<script type="text/javascript" src="../../Js/jquery-3.2.1.min.js"></script>
 			<script type="text/javascript" src="../../Js/bootstrap.min.js"></script>
 			<script type="text/javascript" src="vendas-script.js"></script>

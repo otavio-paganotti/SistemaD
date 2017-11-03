@@ -1,9 +1,27 @@
 // alteração dinâmica dos elementos da página do lobby
 
+function include(file)
+{
+
+  var script  = document.createElement('script');
+  script.src  = file;
+  script.type = 'text/javascript';
+  script.defer = true;
+
+  document.getElementsByTagName('head').item(0).appendChild(script);
+
+}
+
+
+include('../vendas/vendas-script.js');
 
 
 $(function visaoGeral(){
-	
+	$('#visaoGeral').bind('click', function(){
+		$.post("../visao-geral.php", function(pagina){
+			$('.preenchimento').html(pagina);
+		});
+	});
 });
 
 $(function visaoAdministrativo(){
@@ -76,7 +94,11 @@ $(function visaoConfiguracao(){
 
 
 $(function visaoGeral2(){
-	
+	$('#visaoGeral').bind('click', function(){
+		$.post("../visao-geral.php", function(pagina){
+			$('.preenchimento').html(pagina);
+		});
+	});
 });
 
 $(function visaoAdministrativo2(){
@@ -146,5 +168,6 @@ $(function visaoConfiguracao2(){
 		});
 	});
 });
+
 
 

@@ -67,3 +67,34 @@ background-repeat: no-repeat;}}
 
 /* Estilo do vendas.php */
 
+div.op-top-text3 {position: relative;top: 10px;p{float: left;font-size: 18pt;}
+div.op-img-top3 {background-image: url("../../Image/icons/payments.png");background-size: 30px 30px;
+background-repeat: no-repeat;float: left;width: 10%;height: 30px;}}
+
+/* Estilizar o botão de radio */
+
+.container2 {display: block;position: relative;padding-left: 35px;margin-bottom: 12px;cursor: pointer;font-size: 16px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.container2 input {position: absolute;opacity: 0;}
+.checkmark {position: absolute;top: 0;left: 0;height: 25px;width: 25px;background-color: #999;border-radius: 50%;}
+.container2:hover input ~ .checkmark {background-color: #ccc;}
+.container2 input:checked ~ .checkmark {background-color: #666;}
+.checkmark:after {content: "";position: absolute;display: none;}
+.container2 input:checked ~ .checkmark:after {display: block;}
+.container2 .checkmark:after {top: 9px;left: 9px;width: 8px;height: 8px;border-radius: 50%;background: white;} 
+
+/* Estilo do diretoria.php */
+
+div.op-top-text4 {position: relative;top: 10px;p{float: left;font-size: 18pt;}
+div.op-img-top4 {background-image: url("../../Image/icons/admin.png");background-size: 30px 30px;
+background-repeat: no-repeat;float: left;width: 10%;height: 30px;}}
+div.tab2 {overflow: hidden;border: 1px solid #ccc;background-color: #f1f1f1;}
+div.tab2 button {background-color: inherit;float: left;border: none;outline: none;cursor: pointer;padding: 14px 16px;transition: 0.3s;}
+div.tab2 button:hover {background-color: #ddd;}
+div.tab2 button.active {background-color: #ccc;}
+.tabcontent2 {display: none;padding: 6px 12px;border: 1px solid #ccc;border-top: none;} 
+
+/* Estilo do visao-geral.php */
+
+div.op-top-text5 {position: relative;top: 10px;p{float: left;font-size: 18pt;}
+div.op-img-top5 {background-image: url("../../Image/icons/plp.png");background-size: 30px 30px;
+background-repeat: no-repeat;float: left;width: 10%;height: 30px;}}
